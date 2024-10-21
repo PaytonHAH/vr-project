@@ -1,0 +1,39 @@
+AA,aa_ah_ax_01, odd     AA D, 0.2
+AE,aa_02, at	AE T, 0.761
+AH,aa_ah_ax_01, hut	HH AH T, 0.293
+AO,ao_03, ought	AO T, 0.1
+AW,aw_09, cow	K AW, 0.563
+AY,ay_11, hide	HH AY D, 0.347
+B,p_b_m_21, be	B IY, 0.9
+CH,sh_ch_jh_zh_16, cheese	CH IY Z, 0.8
+D,d_t_n_19, dee	D IY, 0.7
+DH,th_dh_17, thee	DH IY, 0.8
+EH,ey_eh_uh_04, Ed	EH D, 0.8
+ER,er_05, hurt	HH ER T, 0.87
+EY,ey_eh_uh_04, Aate	EY T, 0.3
+F,f_v_18, fee	F IY, 0.8
+G,k_g_ng_20, green	G R IY N, 0.198
+HH,h_12, he	HH IY, 0.8
+IH,y_iy_ih_ix_06, it	IH T, 0.8
+IY,y_iy_ih_ix_06, eat	IY T, 0.5
+JH,sh_ch_jh_zh_16, gee	JH IY, 0.431
+K,k_g_ng_20, key	K IY, 0.6
+L,l_14, lee	L IY, 0.2
+M,p_b_m_21, me	M IY, 0.8
+N,d_t_n_19, knee	N IY, 0.8
+NG,k_g_ng_20, ping	P IH NG, 0.345
+OW,ow_08, oat	OW T, 0.8
+OY,oy_10, toy	T OY, 0.4
+P,p_b_m_21, pee	P IY, 0.3
+R,r_13, read	R IY D, 0.6
+S,s_z_15, sea	S IY, 0.8
+SH,sh_ch_jh_zh_16, she	SH IY, 0.1
+T,d_t_n_19, tea	T IY, 0.233
+TH,th_dh_17, theta	TH EY T AH, 0.0
+UH,ey_eh_uh_04, hood	HH UH D, 0.8
+UW,w_uw_07, two	T UW, 0.8
+V,f_v_18, vee	V IY, 0.12
+W,w_uw_07, we	W IY, 0.8
+Y,y_iy_ih_ix_06, yield	Y IY L D, 0.8
+Z,s_z_15, zee	Z IY, 1.0
+ZH,sh_ch_jh_zh_16, seizure	S IY ZH ER, 0.0

@@ -1,0 +1,158 @@
+Dialogue System Addon for OpenAI
+Copyright © Pixel Crushers
+RELEASE NOTES
+-------------
+
+Version 1.0.19:
+[September 3, 2024]
+- Updated optional assembly definitions package to work with Dialogue System assembly definitions.
+
+
+Version 1.0.18:
+[August 24, 2024]
+- Handles new format **ActorName:** returned by OpenAI.
+
+
+Version 1.0.17:
+[August 21, 2024]
+- Improved: Disambiguates namespaces from other third party OpenAI-Unity packages.
+
+
+Version 1.0.16:
+[July 20, 2024]
+- Improved: Now supports and defaults to GPT-4o-mini.
+- Improved: Assistant Window lets you choose any chat model and defaults to GPT-4o-mini.
+
+
+Version 1.0.15:
+[July 15, 2024]
+- Added: OpenAI text to speech generation.
+- Added: Branching dialogue text generator. (Dialogue Smith replacement.)
+- Improved: Different base URL can now be set for editor time use, too.
+- DeepVoice: Added integration.
+- ElevenLabs: Added Multilingual1 and Multilingual2 options.
+
+
+Version 1.0.14:
+[May 27, 2024]
+- Improved: Now supports and defaults to GPT-4o.
+- Improved: Localized field's AI button is now dropdown to select Translate or Generate Voiceover.
+- Fixed: Method call in AITextUtility made back compatible with Unity 2019 and 2020.
+
+
+Version 1.0.13:
+[April 4, 2024]
+- Improved: Can now assign custom value to OpenAI.BaseURL to use different services (e.g., Azure).
+- Improved: Removed English-specific assumptions about handling of colons (:) inside generated text, other improvements.
+- ElevenLabs: Addon now remembers last folder audio file was saved in for easier selection. 
+
+
+Version 1.0.12:
+[March 14, 2024]
+- Improved: Handling of colons (:) inside generated text response when generating conversations.
+
+
+Version 1.0.11:
+[March 12, 2024]
+- Added: Support for fine-tuned models.
+- Improved: Freeform runtime conversation now ends automatically with goodbye line when max tokens are reached.
+- Improved: Now handles more varied dialogue response formats.
+- Dialogue Smith: Removed. Dialogue Smith has discontinued service.
+
+
+Version 1.0.10:
+[February 15, 2024]
+- Added: Text Table asset translation.
+- Improved: RuntimeAIConversation.ApproximateTokenCount and ApproachedMaxTokens are now settable.
+- Improved: RuntimeAIConversation handles additional text formats for dialogue replies from OpenAI.
+- Improved: Runtime dialogue now gets field info from Lua so you can change it at runtime.
+- Changed: Translation panels now default to GPT-3.5 Turbo 16K (since Curie is deprecated).
+- Fixed: Can now tick Welcome Window's Show On Start checkbox even if no OpenAI key is set.
+- Fixed: Dialogue Smith now keeps existing text if present.
+- Overtone: Added integration.
+
+
+Version 1.0.9.1:
+[January 7, 2024]
+- Fixed: Can build for WebGL again. (WebGL doesn't currently support Microphone.)
+
+
+Version 1.0.9:
+[December 26, 2023]
+- Improved: Runtime dialogue now gets field info from Lua so you can change it at runtime.
+- Overtone: Added integration.
+
+
+Version 1.0.8.1:
+[November 18, 2023]
+- Fixed: ElevenLabs voice selection dropdown wasn't showing custom voices.
+
+
+Version 1.0.8:
+[November 7, 2023]
+- Added: Support for GPT-4 Turbo (model currently in preview).
+- Added: Support for ElevenLabs v2 models.
+- Improved: Added top_p, frequency_penalty, and presence_penalty to editor windows, runtime settings, and API.
+- Improved: Generate Voice section can now add sequencer command, remembers last folder audio files were saved into.
+- Improved: Select Voice section now has button to generate all voice lines for an actor.
+
+
+Version 1.0.7:
+[October 17, 2023]
+- Fixed: Runtime dialogue strips "<speaker> says:" from text if present.
+- Improved: Actor and location descriptions are now parsed for [var] and [lua] tags in runtime generation.
+
+
+Version 1.0.6:
+[September 26, 2023]
+- Added ChatGPT-like AI Assistant Window.
+- Added backward compatibility with Unity 2020.
+- Fixed issue in case where Dialogue Smith returns no text for a dialogue entry.
+
+
+Version 1.0.5:
+[August 2, 2023]
+- Context now supports Actor Knowledge & Goals fields in addition to Description.
+- Can now incorporate Location Descriptions in context.
+- RuntimeAIConversation.StartFreeformTextInputConversation() now sends OnConversationStart message.
+- Dialogue Smith uses new UnityWebRequest.PostWwwForm() in Unity 2022+.
+
+
+Version 1.0.4:
+[June 13, 2023]
+- Changed: Requires Dialogue System 2.2.38+.
+- Added: GPT-3.5 Turbo 16K support.
+- Added: Whisper (OpenAI speech to text transcription) support.
+- Added: Dialogue Smith integration.
+- Added: Runtime Choose-Your-Own-Adventure mode, with optional image and voice narration generation.
+- Improved: Added RuntimeAIConversation.freeformTextInputConversationEnded C# event.
+- Improved: Added microphone speech input option to Runtime Demo scene.
+
+
+Version 1.0.3:
+[May 19, 2023]
+- Added: Voice audio generation for runtime conversations.
+- Improved: Freeform text input runtime conversations now generate goodbye line and hide input field when near max tokens.
+- Improved: Handling of errors received from runtime API calls.
+
+
+Version 1.0.2:
+[April 28, 2023]
+- Added: Optional runtime dialogue generation using response menus, freeform text input, or barks.
+- Added: Actor portrait generation using DALL-E.
+- Added: Voiceover speech synthesis using ElevenLabs.
+- Improved: Can now involve any number of actors in generated conversations.
+- Improved: Can now specify an assistant prompt (e.g., "Keep dialogue succint. Make the mood light and fanciful").
+- Improved: Improved editor window text colors in Light skin mode.
+
+
+Version 1.0.1:
+[April 15, 2023]
+- Improved: No longer requires OpenAI for Unity UPM.
+- Improved: Better message history handling for chat models (GPT-3.5 & GPT-4).
+
+
+Version 1.0.0:
+[March 13, 2023]
+- Initial release.
+

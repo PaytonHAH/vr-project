@@ -1,0 +1,8 @@
+happy, mouthSmileLeft, 50, mouthSmileRight, 50, cheekSquintLeft, 40, cheekSquintRight, 40, mouthDimpleRight, 20, mouthDimpleLeft, 20, eyeSquintLeft, 30, eyeSquintRight, 30, mouthUpperUpLeft, 20,  mouthUpperUpRight, 20
+sad, browInnerUp, 60, browDownRight, 100, browDownLeft, 100, mouthFrownLeft, 60,  mouthFrownRight, 60, eyeSquintLeft, 20, eyeSquintRight, 20
+angry, browDownLeft, 60, browDownRight, 60, noseSneerLeft, 70, noseSneerRight, 70, eyeSquintLeft, 40, eyeSquintRight, 40, mouthFrownLeft, 30, mouthFrownRight, 30, mouthPressLeft, 30, mouthPressRight, 30, jawForward, 30
+surprised, browInnerUp, 70, eyeWideLeft, 100, eyeWideRight, 100, eyeBlinkLeft, 20, eyeBlinkRight, 20, cheekPuff, 10, browOuterUpRight, 40, browOuterUpLeft, 40, jawOpen, 20
+disgusted, browOuterUpRight, 50, browOuterUpLeft, 50, browDownRight, 60, browDownLeft, 40, eyeSquintRight, 30, eyeSquintLeft, 30, noseSneerRight, 40, noseSneerLeft, 40, cheekSquintRight, 40, cheekSquintLeft, 40
+nervous, mouthFrownLeft, 40,  mouthFrownRight, 40, browDownLeft, 40, browDownRight, 40, browOuterUpLeft, 80, browOuterUpRight, 80, eyeWideLeft, 30, eyeWideRight, 30, noseSneerLeft, 40, noseSneerRight, 40, mouthLowerDownLeft, 20
+fear, browInnerUp, 80, browOuterUpLeft, 60, browOuterUpRight, 60, mouthStretchLeft, 70, mouthStretchRight, 70, mouthLowerDownLeft, 50, mouthLowerDownRight, 50, eyeWideLeft, 80, eyeWideRight, 80
+confusion, browDownLeft, 40, browDownRight, 40, browOuterUpLeft, 40, browOuterUpRight, 40, mouthStretchLeft, 40, mouthStretchRight, 40, mouthLowerDownLeft, 30, mouthLowerDownRight, 30
